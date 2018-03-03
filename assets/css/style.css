@@ -1,0 +1,110 @@
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'Coiny', cursive;*/
+
+@font-face {
+    font-family: shotclock;
+    src: url('../fonts/digital-7.ttf') format('truetype');
+}
+
+body{
+    background-image: url("../images/bodybg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+h1{
+    font-family: 'Coiny', cursive;
+    font-size: 100px;
+    text-shadow: 1px 1px #f5ac25;
+    text-align: center;
+    
+}
+
+#container {
+    width: 980px;
+    margin: 50px auto;
+    font-family: 'PT Sans', sans-serif
+}
+
+#contentSection{
+    background-color: #f7f7f7b7;
+    /* width: 980px; */
+}
+
+/* #startDiv{
+    width: 980px;
+    
+} */
+
+p{
+    font-size: 25px;
+    margin: 20px 0 10px 0;
+    font-weight: 700;
+
+}
+
+#startBtn{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    padding: 50px 30px;
+    margin: 100px 392.5px;
+    text-align: center;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+}
+
+
+input{
+    
+}
+
+label{
+    padding-right: 30px;
+    font-size: 20px;}
+
+#questions{
+    margin: 15px 20px;
+}
+
+#shotClock{
+    padding: 20px 0 0 20px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#submitBtn{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    padding: 20px 3px;
+    margin: 20px 430px;
+    text-align: center;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+}
+
+#time{
+    background-color: black;
+    color: red;
+    font-family: shotclock;
+    font-size: 40px;
+    padding: 1px 0 1px 10px;
+    margin-right: 10px;
+    min-width: 72px;
+
+}
+
+.display3{
+    padding: 100px 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.display3 div{
+    margin: 20px 0;
+}

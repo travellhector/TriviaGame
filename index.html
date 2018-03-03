@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Add Title
+        </title>
+        
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Coiny|PT+Sans" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+           
+    </head>
+    <body>
+        <div id="container">
+            <h1>Hoop Life Trivia</h1>
+
+            <div id="contentSection">
+                <div id="startDiv">
+                    <button type="button" id="startBtn">Start</button>
+                </div>
+
+                <div class="display2" id="shotClock">Shot Clock: <span id="time"></span> seconds!</div>
+
+                <div id="questions" class="display2">
+                    <form method="post">
+                        <p>Which player took the fewest games to reach 30,000 points scored?</p>
+                        <div>
+                            <input type="radio" id="Choice1" name="1" value="false">
+                            <label for="contactChoice1">Kobe Bryant</label>
+                    
+                            <input type="radio" id="Choice2" name="1" value="false">
+                            <label for="contactChoice2">Wilt Chamberlin</label>
+                    
+                            <input type="radio" id="Choice3" name="1" value="true">
+                            <label for="contactChoice3">Michael Jordan</label>
+                    
+                            <input type="radio" id="Choice4" name="1" value="false">
+                            <label for="contactChoice3">Lebron James</label>
+                        </div>
+                            
+                        <p>Which players team lost in the playoffs to the conference champion each year for the first 6 years of his career?</p>
+                        <div>
+                            <input type="radio" id="Choice1" name="2" value="true">
+                            <label for="contactChoice1">Michael Jordan</label>
+                
+                            <input type="radio" id="Choice2" name="2" value="false">
+                            <label for="contactChoice2">Larry Bird</label>
+                    
+                            <input type="radio" id="Choice3" name="2" value="false">
+                            <label for="contactChoice3">Tim Duncan</label>
+                    
+                            <input type="radio" id="Choice4" name="2" value="false">
+                            <label for="contactChoice3">Reggie Miller</label>
+                        </div>
+                            
+                        <p>Only player to average a trible double in NBA finals?</p>
+                        <div>
+                            <input type="radio" id="Choice1" name="3" value="true">
+                            <label for="contactChoice1">LeBron James</label>
+                    
+                            <input type="radio" id="Choice2" name="3" value="false">
+                            <label for="contactChoice2">Wilt Chamberlin</label>
+                    
+                            <input type="radio" id="Choice3" name="3" value="false">
+                            <label for="contactChoice3">Russell Westbrook</label>
+                    
+                            <input type="radio" id="Choice4" name="3" value="false">
+                            <label for="contactChoice3">Oscar Robertson</label>
+                        </div>
+                            
+                        <p>Who is the greastest basketball player of all time?</p>
+                        <div>
+                            <input type="radio" id="Choice1" name="4" value="true">
+                            <label for="contactChoice1">Kobe Bryant</label>
+                    
+                            <input type="radio" id="Choice2" name="4" value="true">
+                            <label for="contactChoice2">Bill Russell</label>
+                    
+                            <input type="radio" id="Choice3" name="4" value="true">
+                            <label for="contactChoice3">Michael Jordan</label>
+                    
+                            <input type="radio" id="Choice3" name="4" value="true">
+                            <label for="contactChoice3">Lebron James</label>
+                        </div>
+                        <div>
+                            <button type="button" id="submitBtn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="display3">
+                    <div>Correct Answers: <span id="correct"></span></div>
+                    <div>Incorrect Answers: <span id="incorrect"></span></div>
+                    <div>Unanswered: <span id="unanswered"></span></div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        
+
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+    </body>
+    
+</html>
+
